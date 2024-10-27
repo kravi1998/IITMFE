@@ -1,0 +1,37 @@
+:root{
+    --primary-text-color:#222;
+    --secondary-text-color:#444;
+    --primary-background-color:#e7dfdfcf;
+    --card-background-color:#fff;
+    --default-margin:40px;
+}
+.dark{
+    --primary-text-color:#fff;
+    --secondary-text-color:#dbd8d8;
+    --primary-background-color:#272626cf;
+    --card-background-color:black;
+    --default-margin:40px;
+}
+h1{
+    text-align: center;
+    color: var(--primary-text-color);
+}
+main{
+    margin: 10px;
+    padding: 10px;
+}
+.container{
+    background-color: var(--primary-background-color);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    background-color: var(--card-background-color)
+    
+}
+p{
+    color: var(--primary-text-color);
+}

@@ -1,0 +1,11 @@
+.container{
+    border: 2px red solid;
+}
+img{
+    height: 200px;
+    width: 200px;
+    float: right;
+}
+.clear-class{
+    clear: both;
+}

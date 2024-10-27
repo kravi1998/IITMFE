@@ -1,0 +1,41 @@
+.main{
+    height: 300px;
+    width: 300px;
+    background-color: gray;
+    margin:100px;
+}
+.red-box{
+    background-color: red;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    right: 100px;
+}
+.purple-box{
+    background-color:purple;
+    position: sticky;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    right: 100px;
+}
+.yellow-box{
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 100px; 
+    right: 0px;
+}
+.blue-box{
+    background-color: blue;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+}
+.spacer{
+    height: 300vh;
+}
