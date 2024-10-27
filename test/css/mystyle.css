@@ -1,0 +1,22 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: yellow;
+}
+#firstheading{
+    color: white;
+    background-color: black;
+}
+.orange{
+    color: blue;
+    background-color: orange;
+}
+#secondarticle > p {
+    color: red;
+    background-color: aqua;
+}
+
+article p{
+    color: blueviolet;
+    }
