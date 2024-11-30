@@ -110,3 +110,22 @@ while(count <= 10);
 //prime number 1-50 
 //count even and odd number 1-10
 
+const words = ["Hi","Welcome","To","My","Web Pages"];
+for(let i=0 ; i<words.length ; i++){
+    setTimeout(function(){
+        document.getElementById("message").innerText=words[i];
+    },i*1000)
+}
+
+
+//Arrays 
+
+let list1 = ["apple","mango","banana"];
+let list2 = ["papaya","orange"];
+let finalList = list1.concat(list2);
+console.log(finalList);
+
+//splic - add new elements 
+
+finalList.splice(2,0,"lemon");
+console.log(finalList)
