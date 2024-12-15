@@ -1,0 +1,10 @@
+.header{
+    background-color: aqua;
+    height: 50px;
+}
+.nav-menu{
+    display: flex;
+}
+.nav-menu a{
+    text-decoration: none;
+}
