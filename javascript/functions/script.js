@@ -108,3 +108,6 @@ console.log(evenNums);
 //every condition apply on each elment , if satisfy by all element return true either false 
 
 //some condition apply on each elment , if satisfy by some element return true either false
+
+
+//synchronous and asynchronous function
